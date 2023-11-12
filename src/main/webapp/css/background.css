@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(space_bkg.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(CodeSnippet.png);
+    color: #fff;
+    padding-block: 15px;
+    text-align: center;
+}
+
+.pad {
+    margin-top: 58px;
+}
