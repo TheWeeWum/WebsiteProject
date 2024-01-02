@@ -8,7 +8,7 @@ body {
 
 header {
     width:100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(CodeSnippet.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(CodeSnippet.png);
     color: #fff;
     padding-block: 15px;
     text-align: center;

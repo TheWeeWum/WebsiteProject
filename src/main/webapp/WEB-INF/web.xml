@@ -23,4 +23,207 @@
         <url-pattern>/home</url-pattern>
         <url-pattern>/index</url-pattern>
     </servlet-mapping>
+
+<!--   ________________ UNIVERSE _______________  -->
+
+    <servlet>
+        <servlet-name>UniverseUserProfileServlet</servlet-name>
+        <servlet-class>com.universe.view.User.UserProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseUserProfileServlet</servlet-name>
+        <url-pattern>/universe/user_data</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseUserProfilePageServlet</servlet-name>
+        <servlet-class>com.universe.view.User.UserProfilePageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseUserProfilePageServlet</servlet-name>
+        <url-pattern>/universe/profile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseLoginServlet</servlet-name>
+        <servlet-class>com.universe.view.User.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseLoginServlet</servlet-name>
+        <url-pattern>/universe/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseSignupServlet</servlet-name>
+        <servlet-class>com.universe.view.User.SignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseSignupServlet</servlet-name>
+        <url-pattern>/universe/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseAboutServlet</servlet-name>
+        <servlet-class>com.universe.view.User.AboutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseAboutServlet</servlet-name>
+        <url-pattern>/universe/about</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseIndexServlet</servlet-name>
+        <servlet-class>com.universe.view.User.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseIndexServlet</servlet-name>
+        <url-pattern>/universe/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseBuildingsServlet</servlet-name>
+        <servlet-class>com.universe.view.Buildings.BuildingsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseBuildingsServlet</servlet-name>
+        <url-pattern>/universe/buildings</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseBuildingsListServlet</servlet-name>
+        <servlet-class>com.universe.view.Buildings.BuildingsListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseBuildingsListServlet</servlet-name>
+        <url-pattern>/universe/buildings_list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseMainMapServlet</servlet-name>
+        <servlet-class>com.universe.view.MainMap.MainMapServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseMainMapServlet</servlet-name>
+        <url-pattern>/universe/mainmap</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseMarkerServlet</servlet-name>
+        <servlet-class>com.universe.view.MainMap.MarkerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseMarkerServlet</servlet-name>
+        <url-pattern>/universe/markers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseFavouritesInfoServlet</servlet-name>
+        <servlet-class>com.universe.view.Favourites.FavouritesInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseFavouritesInfoServlet</servlet-name>
+        <url-pattern>/universe/favourites_info</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UniverseFavouritesPageServlet</servlet-name>
+        <servlet-class>com.universe.view.Favourites.FavouritesPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseFavouritesPageServlet</servlet-name>
+        <url-pattern>/universe/favourites</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseEvents</servlet-name>
+        <servlet-class>com.universe.view.Events.EventsPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseEvents</servlet-name>
+        <url-pattern>/universe/events</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseBuildingEvents</servlet-name>
+        <servlet-class>com.universe.view.Events.BuildingEventsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseBuildingEvents</servlet-name>
+        <url-pattern>/universe/building_events</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseBuildingInfoServlet</servlet-name>
+        <servlet-class>com.universe.view.Building.BuildingInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseBuildingInfoServlet</servlet-name>
+        <url-pattern>/universe/building_info</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseBuildingPageServlet</servlet-name>
+        <servlet-class>com.universe.view.Building.BuildingPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseBuildingPageServlet</servlet-name>
+        <url-pattern>/universe/building</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UniverseUserReviewServlet</servlet-name>
+        <servlet-class>com.universe.view.Reviews.UserReviewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseUserReviewServlet</servlet-name>
+        <url-pattern>/universe/review</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UniverseUserReviewPageServlet</servlet-name>
+        <servlet-class>com.universe.view.Reviews.UserReviewPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseUserReviewPageServlet</servlet-name>
+        <url-pattern>/universe/reviews_page</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UniverseBuildingReviews</servlet-name>
+        <servlet-class>com.universe.view.Reviews.BuildingReviewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseBuildingReviews</servlet-name>
+        <url-pattern>/universe/building_reviews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseBuildingReviewsPage</servlet-name>
+        <servlet-class>com.universe.view.Reviews.BuildingReviewsPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseBuildingReviewsPage</servlet-name>
+        <url-pattern>/universe/reviews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseAddEvent</servlet-name>
+        <servlet-class>com.universe.view.Events.AddEventServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseAddEvent</servlet-name>
+        <url-pattern>/universe/add_event</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UniverseAddToFavourites</servlet-name>
+        <servlet-class>com.universe.view.Building.AddToFavouritesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UniverseAddToFavourites</servlet-name>
+        <url-pattern>/universe/add_to_favourite</url-pattern>
+    </servlet-mapping>
+
 </web-app>

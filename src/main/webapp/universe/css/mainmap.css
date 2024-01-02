@@ -1,0 +1,37 @@
+#map {
+    height: 600px;
+    width: 100%;
+    float: right;
+}
+
+#sidePanel {
+    overflow-y: auto;
+    height: 600px;
+    width: 0;
+    float: right;
+    box-sizing: border-box;
+    background-color: #222;
+    color: white;
+}
+
+#sidePanel h1 {
+    padding-inline: 18px;
+    padding-bottom: 4px;
+    background-color: #222;
+    text-align: center;
+}
+
+#sidePanel h2 {
+    padding-inline: 18px;
+    padding-bottom: 4px;
+    background-color: #222;
+    text-align: center;
+}
+
+
+#sidePanel p {
+    padding-inline: 18px;
+    padding-bottom: 4px;
+    background-color: #222;
+    text-align: left;
+}

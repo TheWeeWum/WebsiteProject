@@ -1,0 +1,36 @@
+.reviewSection {
+    position: relative; /* Set the positioning context for absolute positioning */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(256, 256, 256, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #000000;
+}
+
+.reviewHeader {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.reviewDate {
+    font-size: 0.8em;
+    color: #555;
+    position: absolute;
+    top: 10px; /* Adjust as needed for the desired vertical position */
+    right: 10px; /* Adjust as needed for the desired horizontal position */
+}
+
+.reviewRating {
+    font-weight: bold;
+}
+
+.reviewTitle {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.reviewContent {
+    margin-top: 10px;
+}
